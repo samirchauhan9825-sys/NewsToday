@@ -9,7 +9,6 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Newsbycategorie from './Pages/Newsbycategorie'
 import Categories from './Common/Categories'
 import Sources from './Pages/Sources'
-import SearchCountry from '../../Countries/src/Pages/SearchCountry'
 import SearchNews from './Pages/SearchNews'
 import Home from './Pages/Home'
 
