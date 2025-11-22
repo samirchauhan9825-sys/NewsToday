@@ -24,7 +24,6 @@ function App() {
         <Route path='/categories' element={<Categories/>} />
         <Route path='/sources' element={<Sources/>} />
         <Route path='/Newsbycategorie/:categorie' element={<Newsbycategorie/>} />
-        <Route path='/searchCountry' element={<SearchCountry />} />
         <Route path='/searchNews' element={<SearchNews />} />
       </Routes>
     <Footer/>
