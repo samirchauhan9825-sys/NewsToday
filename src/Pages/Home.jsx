@@ -106,7 +106,7 @@ function Home() {
                                       <div className="post-thumb d-flex mr-15 border-radius-15 img-hover-scale">
                                         <a
                                           className="color-white"
-                                          href="single.html"
+                                          href={value.link}
                                         >
                                           <img
                                             className="border-radius-15"
@@ -189,14 +189,14 @@ function Home() {
                                     <div className="post-thumb d-flex mr-15 border-radius-5 img-hover-scale">
                                       <a
                                         className="color-white"
-                                        href="single.html"
+                                        href={value.link}
                                       >
                                         <img src={value.image_url} alt />
                                       </a>
                                     </div>
                                     <div className="post-content media-body">
                                       <h6 className="post-title mb-10 text-limit-2-row">
-                                        <a href="single.html">{value.title}</a>
+                                        <a href={value.link}>{value.title}</a>
                                       </h6>
                                       <div className="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
                                         <span className="post-by">

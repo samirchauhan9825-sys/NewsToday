@@ -42,8 +42,8 @@ function Newsbycategorie() {
                       <div className="row">
                         <div className="col-7">
                           <h4 className=" text-center widget-title mb-0">
-                             <span><Link to="/" className='text-decoration-none text-dark' style={{fontSize:"15px"}}>
-                            </Link>Home </span>
+                             <a href='/'><Link to="/" className='text-decoration-none text-dark' style={{fontSize:"15px"}}>
+                            </Link>Home </a>
                             <span className='fa fa-arrow-right text-decoration-none text-danger'>  </span>
                             {categorie}
                           </h4>
