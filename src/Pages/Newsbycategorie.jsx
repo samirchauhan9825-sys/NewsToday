@@ -80,7 +80,7 @@ function Newsbycategorie() {
                                     <div className="entry-meta mb-15 mt-10">
                                       <a
                                         className="entry-meta meta-2"
-                                        href="category.html"
+                                        href={value.link}
                                       >
                                         <span className="post-in text-danger font-x-small">
                                           {value.category}
@@ -89,7 +89,7 @@ function Newsbycategorie() {
                                     </div>
                                     <h5 className="post-title mb-15 text-limit-2-row">
                                       
-                                      <a href="single.html">{value.title}</a>
+                                      <a href={value.link}>{value.title}</a>
                                     </h5>
                                     <div className="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
                                       <span className="post-by">

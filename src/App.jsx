@@ -11,6 +11,7 @@ import Categories from './Common/Categories'
 import Sources from './Pages/Sources'
 import SearchNews from './Pages/SearchNews'
 import Home from './Pages/Home'
+import Contact from './Pages/Contact'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/categories' element={<Categories/>} />
         <Route path='/sources' element={<Sources/>} />
+        <Route path='/contact' element={<Contact/>} />
         <Route path='/Newsbycategorie/:categorie' element={<Newsbycategorie/>} />
         <Route path='/searchNews' element={<SearchNews />} />
       </Routes>

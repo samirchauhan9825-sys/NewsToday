@@ -80,7 +80,7 @@ function Home() {
                                 setQuery(e.target.value)
                               }}
                               type="search"
-                              className="search_field p-1"
+                              className="search_field p-1 border border-none"
                               placeholder="Search News..."
                               name="s"
                             />
@@ -128,7 +128,7 @@ function Home() {
                                           </a>
                                         </div>
                                         <h5 className="post-title mb-15 text-limit-2-row">
-                                          <a href="single.html">
+                                          <a href={value.link}>
                                             {value.title}
                                           </a>
                                         </h5>

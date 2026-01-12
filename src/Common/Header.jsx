@@ -15,29 +15,26 @@ function Header() {
             <div className="row">
               <div className="col-lg-2 col-md-3">
                 <div className="header-logo d-none d-lg-block">
-                  <a href="index.html">
+                  <a >
                     <img
                       className="logo-img d-inline"
                       src="assets/imgs/logo.svg"
-                      alt
                     />
                   </a>
                 </div>
                 <div className="logo-tablet d-md-inline d-lg-none d-none">
-                  <Link to={"index.html"}>
+                  <Link>
                     <img
                       className="logo-img d-inline"
                       src="assets/imgs/logo.svg"
-                      alt
                     />
                   </Link>
                 </div>
                 <div className="logo-mobile d-block d-md-none">
-                  <Link to={"index.html"}>
+                  <Link>
                     <img
                       className="logo-img d-inline"
                       src="assets/imgs/favicon.svg"
-                      alt
                     />
                   </Link>
                 </div>
@@ -57,12 +54,10 @@ function Header() {
                       </li>
                       <ul className="main-menu d-none d-lg-inline">
                         <li className="menu-item-has-children">
-                          <a href="index.html">
                             <span className="fa fa-list-ul mr-15">
                               <ion-icon name="" />
                             </span>
                             Categories
-                          </a>
                           <ul className="sub-menu text-muted font-small">
                             <li className="cat-item cat-item-3">
                               <Link to={"/Newsbycategorie/business"}>
@@ -141,18 +136,17 @@ function Header() {
                       </li>
 
                       <li>
-                        <a href="contact.html">
+                        <Link to={"/contact"}>
                           <span className="fa fa-phone mr-15">
                             <ion-icon name="" />
                           </span>
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <div className="d-inline ml-50 tools-icon">
                       <a
                         className="red-tooltip text-danger"
-                        href="#"
                         data-toggle="tooltip"
                         data-placement="top"
                         title
@@ -162,7 +156,6 @@ function Header() {
                       </a>
                       <a
                         className="red-tooltip text-primary"
-                        href="#"
                         data-toggle="tooltip"
                         data-placement="top"
                         title
@@ -172,14 +165,14 @@ function Header() {
                       </a>
                       <a
                         className="red-tooltip text-success"
-                        href="#"
+                        
                         data-toggle="tooltip"
                         data-placement="top"
                         title
                         data-original-title="Notifications"
                       >
                         <ion-icon name="notifications-outline" />
-                        <span className="notification bg-success">5</span>
+                        <span className="notification bg-success">2</span>
                       </a>
                     </div>
                   </nav>
